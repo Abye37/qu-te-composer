@@ -1,0 +1,20 @@
+{
+    "name": "abie/chall",
+    "description": "composerchall",
+    "authors": [
+        {
+            "name": "Mayte",
+            "email": "malapert.mayte@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ehime/hello-world": "^1.0",
+        "monolog/monolog": "^2.0"
+    },
+    "autoload": {
+        "psr-4":{
+            "App\\Wcs\\":"src/Wcs"
+        }
+    }
+}
