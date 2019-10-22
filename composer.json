@@ -10,7 +10,8 @@
     "minimum-stability": "stable",
     "require": {
         "ehime/hello-world": "^1.0",
-        "monolog/monolog": "^2.0"
+        "monolog/monolog": "^2.0",
+        "twig/twig": "^2.12"
     },
     "autoload": {
         "psr-4":{

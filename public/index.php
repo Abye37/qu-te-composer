@@ -1,6 +1,7 @@
 <?php
 
-require_once '../vendor/autoload.php';
+
+require_once '../.gitignore/vendor/autoload.php';//redirection avec autoload
 
 use App\Wcs\Hello;//Déclaration name space
 use HelloWorld\SayHello;
